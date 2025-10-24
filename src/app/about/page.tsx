@@ -48,9 +48,9 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'Über mich',
   description:
-    'Sebastian Breitzke: Director R&D with 20+ years building logistics software. Embracing reality\'s complexity and delivering pragmatic solutions.',
+    'Sebastian Breitzke: Director R&D mit über 20 Jahren Erfahrung in der Logistiksoftware-Entwicklung. Ich nehme die Komplexität der Realität an und liefere pragmatische Lösungen.',
 }
 
 export default function About() {
@@ -69,48 +69,47 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I'm Sebastian Breitzke. I embrace reality's complexity and deliver pragmatic solutions.
+            Ich bin Sebastian Breitzke. Ich nehme die Komplexität der Realität an und liefere pragmatische Lösungen.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              "There's only one world, it's always dirty." Most developers talk about "best practices"
-              and "ideal solutions." I talk about reality. The real world is never perfect, never ideal,
-              never as clean as we'd like. But that's okay. The skill isn't in imagining perfect
-              conditions - it's in embracing the messiness and delivering value anyway.
+              "Es gibt nur eine Welt, und die ist immer dreckig." Die meisten Entwickler reden über "Best Practices"
+              und "ideale Lösungen". Ich rede über die Realität. Die echte Welt ist niemals perfekt, niemals ideal,
+              niemals so sauber, wie wir sie gerne hätten. Aber das ist in Ordnung. Die Kunst liegt nicht darin,
+              sich perfekte Bedingungen vorzustellen - sondern darin, das Chaos anzunehmen und trotzdem Wert zu liefern.
             </p>
             <p>
-              For over 20 years, I've been building logistics software for companies like Mercedes-Benz,
-              Otto Group, and DHL. As Director R&D at ecovium, I lead the development of the SimpleChain
-              ecosystem - evaluated by Gartner as groundbreaking and market-appropriate. I manage projects
-              with budgets between €500,000 and €1.5 million, and I still code. Because the best
-              leaders stay hands-on.
+              Seit über 20 Jahren entwickle ich Logistiksoftware für Unternehmen wie Mercedes-Benz, Otto Group und DHL.
+              Als Director R&D bei ecovium leite ich die Entwicklung des SimpleChain-Ecosystems - von Gartner als
+              wegweisend und marktgerecht bewertet. Ich manage Projekte mit Budgets zwischen 500.000 und 1,5 Millionen
+              Euro, und ich programmiere immer noch selbst. Denn die besten Führungskräfte bleiben hands-on.
             </p>
             <p>
-              Before ecovium, I led development of V-LOG 6.0 at MHP Software, one of the company's
-              highest-revenue products. I successfully migrated over 1,000 clients to the new version
-              and established a nearshore development center in Tenerife that grew to 20+ employees.
-              These experiences taught me that successful migrations depend on clear communication, not
-              perfect planning.
+              Vor ecovium leitete ich bei MHP Software die Entwicklung von V-LOG 6.0, einem der umsatzstärksten
+              Produkte des Unternehmens. Ich habe erfolgreich über 1.000 Kunden auf die neue Version migriert und ein
+              Nearshore-Entwicklungszentrum auf Teneriffa aufgebaut, das auf über 20 Mitarbeiter gewachsen ist. Diese
+              Erfahrungen haben mir gezeigt, dass erfolgreiche Migrationen von klarer Kommunikation abhängen, nicht von
+              perfekter Planung.
             </p>
             <p>
-              Beyond code, I'm an avid tango dancer - because tango, like software development, requires
-              responding to reality in the moment, not following rigid choreography. I'm an experienced
-              cook (friends are always "begeistert" when they eat at my place), and I'm deeply curious
-              about physics, astronomy, history, and archaeology. I want to understand how the world
-              actually works, not how we imagine it.
+              Jenseits des Codes bin ich ein leidenschaftlicher Tangotänzer - denn Tango erfordert, wie die
+              Softwareentwicklung, auf die Realität im Moment zu reagieren, nicht einer starren Choreografie zu folgen.
+              Ich bin ein erfahrener Koch (Freunde sind immer begeistert, wenn sie bei mir essen), und ich bin tief
+              interessiert an Physik, Astronomie, Geschichte und Archäologie. Ich will verstehen, wie die Welt wirklich
+              funktioniert, nicht wie wir sie uns vorstellen.
             </p>
             <p>
-              I'm passionate about my work, and my driving force is the success of my clients. Not
-              building perfect architectures - delivering systems that create measurable value. Not
-              chasing trends - applying proven patterns pragmatically. Not promising ideal solutions -
-              embracing reality's messiness and succeeding anyway.
+              Ich bin mit Herz bei der Sache, und mein Antrieb ist der Erfolg meiner Kunden. Keine perfekten
+              Architekturen bauen - Systeme liefern, die messbaren Wert schaffen. Nicht Trends hinterherlaufen -
+              bewährte Muster pragmatisch anwenden. Keine idealen Lösungen versprechen - das Chaos der Realität
+              annehmen und trotzdem erfolgreich sein.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink href="https://www.linkedin.com/in/sebastian-breitzke" icon={LinkedInIcon}>
-              Follow on LinkedIn
+              Folge auf LinkedIn
             </SocialLink>
             <SocialLink
               href="mailto:sb@sbreitzke.net"

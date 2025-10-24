@@ -268,23 +268,23 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            There's only one world, it's always dirty.
+            Es gibt nur eine Welt, und die ist immer dreckig.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            That's not pessimism - it's pragmatic realism. I'm Sebastian Breitzke,
-            Director R&D with 20+ years building logistics software for Mercedes-Benz,
-            Otto Group, and DHL. I deliver pragmatic solutions that work in messy
-            reality, not perfect architectures for ideal conditions.
+            Das ist kein Pessimismus - das ist pragmatischer Realismus. Ich bin Sebastian Breitzke,
+            Director R&D mit über 20 Jahren Erfahrung in der Entwicklung von Logistiksoftware für
+            Mercedes-Benz, Otto Group und DHL. Ich liefere pragmatische Lösungen, die in der
+            unordentlichen Realität funktionieren, nicht perfekte Architekturen für ideale Bedingungen.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://www.linkedin.com/in/sebastian-breitzke"
-              aria-label="Follow on LinkedIn"
+              aria-label="Folge auf LinkedIn"
               icon={LinkedInIcon}
             />
             <SocialLink
               href="mailto:sb@sbreitzke.net"
-              aria-label="Email"
+              aria-label="E-Mail"
               icon={MailIcon}
             />
           </div>
