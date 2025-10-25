@@ -73,8 +73,8 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              "Es gibt nur eine Welt, und die ist immer dreckig." Die meisten Entwickler reden über "Best Practices"
-              und "ideale Lösungen". Ich rede über die Realität. Die echte Welt ist niemals perfekt, niemals ideal,
+              &ldquo;Es gibt nur eine Welt, und die ist immer dreckig.&rdquo; Die meisten Entwickler reden über &ldquo;Best Practices&rdquo;
+              und &ldquo;ideale Lösungen&rdquo;. Ich rede über die Realität. Die echte Welt ist niemals perfekt, niemals ideal,
               niemals so sauber, wie wir sie gerne hätten. Aber das ist in Ordnung. Die Kunst liegt nicht darin,
               sich perfekte Bedingungen vorzustellen - sondern darin, das Chaos anzunehmen und trotzdem Wert zu liefern.
             </p>
